@@ -1,8 +1,12 @@
+import { Navbar } from "@/components/sections/Navbar"
+import { Footer } from "@/components/sections/Footer"
+
 export default function Home() {
     return (
-        <div>
-            <h1>Hello World</h1>
-        </div>
+        <>
+            <Navbar />
+            {/* <Footer /> */}
+        </>
     )
 }
 
